@@ -1,6 +1,7 @@
 /**
  * Created by Administrator on 2017/10/16.
  */
+import common.TreeNode;
 public class InvertBinaryTree226 {
 
     public TreeNode invertTree(TreeNode root) {
@@ -15,3 +16,5 @@ public class InvertBinaryTree226 {
         return root;
     }
 }
+
+
