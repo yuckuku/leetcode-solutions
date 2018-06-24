@@ -2,77 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="944ee57a-6ff7-4675-8887-c1e2e1f9b863" name="Default" comment="20171018">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dangdang_elastic_job_common_core_2_1_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dangdang_elastic_job_common_restful_2_1_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dangdang_elastic_job_lite_core_2_1_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dangdang_elastic_job_lite_lifecycle_2_1_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_6_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_json_1_19.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_10_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_10_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_10_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_9_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_aggregate_jetty_all_server_8_1_19_v20160209.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_activation_1_1_0_v201105071233.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_annotation_1_1_0_v201108011116.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_mail_glassfish_1_4_1_v201005082020.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_security_auth_message_1_0_0_v201108011116.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_servlet_3_0_0_v201112011016.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/classic/algorithms/EightQueen.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/common/ListNode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/leetcode_solutions/PascalsTriangle118.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/leetcode_solutions/SpiralMatrixII59.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/leetcode_solutions/Subsets78.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/lintcode_solutions/DigitCounts3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/lintcode_solutions/KthLargestElement5.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/lintcode_solutions/SerializeandDeserializeBinaryTree7.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/lintcode_solutions/UglyNumberII4.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tests/test1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tests/test20171113.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tests/test7.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tests/test8.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/leetcodesolutions.iml" afterPath="$PROJECT_DIR$/leetcodesolutions.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/TreeNode.java" afterPath="$PROJECT_DIR$/src/main/java/common/TreeNode.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solutions/BinaryNumberWithAlternatingBits.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solutions/CountBinarySubstrings696.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solutions/DetectCapital520.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solutions/FindAllNumbersDisappearedInAnArray448.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solutions/InvertBinaryTree226.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solutions/LongestUncommonSubsequenceI.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solutions/MaxAreaOfIsland.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solutions/MaxConsecutiveOnes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solutions/MaximumDepthOfBinaryTree104.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode_solutions/SpiralMatrixII59.java" afterPath="$PROJECT_DIR$/src/main/java/leetcode_solutions/SpiralMatrixII59.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -115,8 +46,8 @@
       <file leaf-file-name="SpiralMatrixII59.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode_solutions/SpiralMatrixII59.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="234">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -235,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/solutions/SameTree100.java" />
         <option value="$PROJECT_DIR$/src/main/java/solutions/ValidAnagram242.java" />
         <option value="$PROJECT_DIR$/src/main/java/solutions/RomantoInteger13.java" />
         <option value="$PROJECT_DIR$/src/main/java/solutions/ContainsDuplicate217.java" />
@@ -286,6 +216,7 @@
         <option value="$PROJECT_DIR$/src/main/java/lintcode_solutions/SerializeandDeserializeBinaryTree7.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode_solutions/PascalsTriangle118.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode_solutions/Subsets78.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode_solutions/SpiralMatrixII59.java" />
       </list>
     </option>
   </component>
@@ -955,7 +886,7 @@
       <workItem from="1529387664369" duration="1187000" />
       <workItem from="1529575795728" duration="1162000" />
       <workItem from="1529744307050" duration="5624000" />
-      <workItem from="1529801190934" duration="7662000" />
+      <workItem from="1529801190934" duration="8226000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1507605118618</created>
@@ -1021,7 +952,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112020000" />
+    <option name="totallyTimeSpent" value="112584000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1555,8 +1486,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode_solutions/SpiralMatrixII59.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="234">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
