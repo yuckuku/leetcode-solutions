@@ -40,7 +40,7 @@ public class CombinationSum39 {
     int path[] = new int[1000];
     int len = 0;
 
-    public void DFS(int index, int[] c, int target){
+    private void DFS(int index, int[] c, int target){
         if(target == 0){
             //ans记录
             List<Integer> tmp = new ArrayList<Integer>();
