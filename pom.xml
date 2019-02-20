@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.leetcode</groupId>
-    <artifactId>lnn.solutions</artifactId>
+    <artifactId>lnn-solutions</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>lnn.solutions</name>
+    <name>lnn-solutions</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!--unit test-->

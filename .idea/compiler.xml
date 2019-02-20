@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="leetcodesolutions" />
+        <module name="lnn-solutions" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="leetcodesolutions" target="1.8" />
+      <module name="leetcodesolutions" target="1.8.0_92" />
+      <module name="lnn-solutions" target="1.8.0_92" />
     </bytecodeTargetLevel>
   </component>
 </project>
