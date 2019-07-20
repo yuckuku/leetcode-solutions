@@ -1,4 +1,8 @@
 package tests;
+
+import org.apache.commons.lang3.StringUtils;
+
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -9,8 +13,14 @@ public class Trim {
 //        String s = "447. Number of Boomerangs   ";
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();  //读取字符串型输入
-        String ss = s.replaceAll("\\s*","");
-        String temp[] = ss.split("\\.");
-        System.out.println(temp[1]+temp[0]);
+//        String ss = s.replaceAll("\\s*","");
+//        System.out.println("line is:" + s);
+        String temp[] = StringUtils.split(s);
+        String className = "";
+        for (String str :
+                temp) {
+            className += str;
+        }
+        System.out.println("class name:" + className);
     }
 }

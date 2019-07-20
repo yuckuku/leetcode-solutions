@@ -1,6 +1,5 @@
 package leetcode_solutions.arrays;
 
-import com.sun.javafx.image.impl.ByteIndexed;
 import org.junit.Test;
 
 import java.util.*;

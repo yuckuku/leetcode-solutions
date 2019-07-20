@@ -1,7 +1,5 @@
 package leetcode_solutions.arrays;
 
-import com.sun.corba.se.impl.resolver.FileResolverImpl;
-
 import java.util.HashSet;
 
 /**
