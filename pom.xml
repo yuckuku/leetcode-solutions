@@ -15,8 +15,9 @@
         <junit.version>4.4</junit.version>
         <!--<mockito.version>1.10.19</mockito.version>-->
 
-        <maven.compiler.source>1.8.0_92</maven.compiler.source>
-        <maven.compiler.target>1.8.0_92</maven.compiler.target>
+        <maven.compiler.source>12</maven.compiler.source>
+        <maven.compiler.target>12</maven.compiler.target>
+        <java.version>12.0.1</java.version>
     </properties>
 
 
