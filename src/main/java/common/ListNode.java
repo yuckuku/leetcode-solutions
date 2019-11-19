@@ -14,5 +14,22 @@ public class ListNode {
     public ListNode(int x) {
         val = x;
     }
+
+    public ListNode(int x, ListNode next) {
+        val = x;
+        this.next = next;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append(val);
+        ListNode tmp = next;
+        while (tmp != null) {
+            sb.append("->").append(tmp.val);
+            tmp = tmp.next;
+        }
+        return sb.toString();
+    }
 }
 
