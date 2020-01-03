@@ -15,14 +15,20 @@ public class LowestCommonAncestorofaBinaryTree236 {
      * TreeNode(int x) { val = x; }
      * }
      */
+    //执行用时:257ms,在所有java提交中击败了5.96%的用户内存消耗:40.1MB,在所有java提交中击败了5.04%的用户
     class Solution {
+
+        boolean find = false;
+
         public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 
             if (root == null) return null;
 
             LinkedList<TreeNode> list1 = new LinkedList<>();
             LinkedList<TreeNode> list2 = new LinkedList<>();
+//            LinkedList<TreeNode> path = new LinkedList<>();
             dfs(root, list1, p);
+            find = false;
             dfs(root, list2, q);
 
             TreeNode re = null;
@@ -39,13 +45,19 @@ public class LowestCommonAncestorofaBinaryTree236 {
         }
 
         private void dfs(TreeNode root, LinkedList<TreeNode> list, TreeNode desNode) {
-            list.add(root);
-            if (root == desNode) return;
+            if (!find)
+                list.add(root);
+            else return;
+            if (root == desNode) {
+                find = true;
+                return;
+            }
             if (root.left != null)
                 dfs(root.left, list, desNode);
             if (root.right != null)
                 dfs(root.right, list, desNode);
-            list.removeLast();
+            if (!find)
+                list.removeLast();
         }
 
     }
@@ -76,10 +88,48 @@ public class LowestCommonAncestorofaBinaryTree236 {
 
         Solution solution = new Solution();
         TreeNode re = solution.lowestCommonAncestor(node3, node5, node4);
-
         System.out.println(re.val);
 
 
+        LinkedList<TreeNode> list1 = new LinkedList<>();
+        solution.dfs(node3, list1, node4);
+        for (int i = 0; i < list1.size(); i++) {
+            System.out.println(list1.get(i).val);
+        }
+
+
     }
+
+    class Solution6ms {
+        public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+            if (root == null || root == p || root == q) return root;
+
+            TreeNode left = lowestCommonAncestor(root.left, p, q);
+            TreeNode right = lowestCommonAncestor(root.right, p, q);
+
+            if (left != null && right != null) return root;
+            return left == null ? right : left;
+        }
+    }
+
+    class Solution8ms {
+        public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+            TreeNode ret = new TreeNode(0);
+            recurseTree(root, p, q, ret);
+            return ret;
+        }
+
+        private boolean recurseTree(TreeNode root, TreeNode p, TreeNode q, TreeNode ret) {
+            if (root == null) return false;
+            int left = recurseTree(root.left, p, q, ret) ? 1 : 0;
+            int right = recurseTree(root.right, p, q, ret) ? 1 : 0;
+            int mid = (root.val == p.val || root.val == q.val) ? 1 : 0;
+
+            if (left + mid + right >= 2) ret.val = root.val;
+            return (left + mid + right) > 0;
+        }
+    }
+
+
 
 }
