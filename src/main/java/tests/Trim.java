@@ -28,10 +28,9 @@ public class Trim {
         String temp[] = null;
         temp = StringUtils.split(s, "\n");
         for (int i = 0; i < temp.length; i++) {
-            System.out.println(temp[i]);
             sb.append(temp[i].replaceAll("\\s*", "")).append("\n");
         }
-        System.out.println("------------result-------------");
+        System.out.println("\n------------result-------------\n");
         System.out.println(sb.toString());
     }
 

@@ -1,4 +1,4 @@
-
+* 字典树trie
 
 ```
 Given a list of words, we may encode it by writing a reference string S and a list of indexes A.
